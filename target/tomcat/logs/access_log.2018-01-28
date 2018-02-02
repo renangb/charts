@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:20:12:27 -0200] "GET /graficos/form HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:20:12:57 -0200] "GET /charts/ HTTP/1.1" 500 28105 http-bio-8080-exec-3 98
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:20:12:57 -0200] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0

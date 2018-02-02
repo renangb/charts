@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:20:01:22 -0200] "GET /graficos/form HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:20:01:22 -0200] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:20:01:33 -0200] "GET / HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:20:01:39 -0200] "GET /charts HTTP/1.1" 302 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:20:01:39 -0200] "GET /charts/ HTTP/1.1" 200 132 http-bio-8080-exec-5 504
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:20:01:52 -0200] "GET /charts/grafico/form HTTP/1.1" 404 949 http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:20:01:59 -0200] "GET /charts/graficos/form HTTP/1.1" 200 420 http-bio-8080-exec-7 81
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:20:02:13 -0200] "POST /charts/graficos HTTP/1.1" 200 145 http-bio-8080-exec-8 229
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:20:08:44 -0200] "GET /charts/graficos/form HTTP/1.1" 200 420 http-bio-8080-exec-1 76
